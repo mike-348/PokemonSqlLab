@@ -27,4 +27,10 @@ FROM pokemons;
 656
 
 How many types are there?
+
+SELECT COUNT(*)
+FROM types;
+
+18
+
 How many pokemon have a secondary type?
