@@ -12,6 +12,11 @@ Poison, Bug, Electric, Dragon, Steel, Dark
 Fighting, Psychic, Ghost, Fairy, Ice, Flying
 
 What is the name of the pokemon with id 45?
+
+SELECT * 
+FROM pokemons
+WHERE id=45;
+
 How many pokemon are there?
 How many types are there?
 How many pokemon have a secondary type?
