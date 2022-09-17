@@ -17,6 +17,14 @@ SELECT *
 FROM pokemons
 WHERE id=45;
 
+'Eevee'
+
 How many pokemon are there?
+
+SELECT COUNT(*)
+FROM pokemons;
+
+656
+
 How many types are there?
 How many pokemon have a secondary type?
