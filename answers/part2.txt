@@ -34,3 +34,9 @@ FROM types;
 18
 
 How many pokemon have a secondary type?
+
+SELECT COUNT(*)
+FROM pokemons
+WHERE secondary_type IS NOT NULL;
+
+316
